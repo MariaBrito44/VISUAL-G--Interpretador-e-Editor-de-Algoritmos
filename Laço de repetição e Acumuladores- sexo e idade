@@ -1,0 +1,38 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Laço de repetição e Acumuladores
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+    X: inteiro
+    nome: caractere
+    idade: inteiro
+    Total_Masc: inteiro
+    Total_Fem: inteiro
+    sexo: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Para X de 1 ate 3 faca
+    ESCREVAL ( X, " Qual o seu nome?")
+    LEIA (nome)
+    ESCREVAL ("Qual a sua idade?")
+    LEIA (idade)
+    ESCREVAL ("Qual o seu sexo?")
+    LEIA (sexo)
+    
+    SE (sexo = "feminino") ENTAO
+      Total_Fem <- Total_Fem + idade
+    SENAO
+      Total_Masc <- Total_Masc + idade
+    FIMSE
+    
+    ESCREVAL ("nome = ", nome, ", idade = " , idade ,  " anos")
+    ESCREVAL ("" )
+FIMPARA
+ESCREVAL ("TOTAL FEMININO =", Total_Fem)
+ESCREVAL ("TOTAL MASCULINO =", Total_Masc)
+
+Fimalgoritmo
