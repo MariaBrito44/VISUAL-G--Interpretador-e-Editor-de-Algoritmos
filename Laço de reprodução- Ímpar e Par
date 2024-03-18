@@ -1,0 +1,32 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Ímpar e par
+// Autor(a)    : Maria Eduarda Rodrigues brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+ X: inteiro
+continuar: caractere
+
+Inicio
+Para X de 1 ate 40 FACA
+
+continuar <- "S"
+X <- 1
+ENQUANTO continuar = "S" FACA
+   ESCREVAL (X)
+   SE (X % 2 = 0) ENTAO
+      ESCREVAL (" - PAR")
+  SENAO
+      ESCREVAL (" - IMPAR")
+  FIMSE
+  ESCREVAL ("DESEJA CONTINUAR ? [S/N]")
+  LEIA (continuar)
+  ESCREVAL ("")
+  SE continuar = "S" ENTAO
+     X <- X + 1
+  FIMSE
+FIMENQUANTO
+   FIMPARA
+Fimalgoritmo
