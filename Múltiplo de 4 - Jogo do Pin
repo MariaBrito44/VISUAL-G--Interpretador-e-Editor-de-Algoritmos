@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Múltiplo de 4 - Jogo do Pin
+// Autor(a)    : Maria Eduarda Rodrigues brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+ X: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Para X de 1 ate 40 FACA
+  SE (X % 4 = 0) ENTAO
+      ESCREVAL ("PIN")
+  SENAO
+      ESCREVAL (X)
+  FIMSE
+FIMPARA
+
+Fimalgoritmo
