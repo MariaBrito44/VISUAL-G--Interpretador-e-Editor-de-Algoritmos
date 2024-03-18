@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Acumuladores
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+    X: inteiro
+    nome: caractere
+    idade: inteiro
+    Total: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    Para X de 1 ate 5 faca
+    ESCREVAL ( X, " Qual o seu nome?")
+    LEIA (nome)
+    ESCREVAL ("Qual a sua idade?")
+    LEIA (idade)
+    Total <- Total + idade
+    
+    ESCREVAL ("nome = ", nome, ", idade = " , idade ,  " anos")
+    ESCREVAL ("" )
+    FIMPARA
+    ESCREVAL ("TOTAL GERAL =", Total)
+
+Fimalgoritmo
