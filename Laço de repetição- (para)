@@ -1,0 +1,18 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Laço de repetição
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+     X: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   Para x de 1 ate 200 faca
+   ESCREVAL ("Maria Eduarda")
+   FIMPARA
+
+Fimalgoritmo
+
