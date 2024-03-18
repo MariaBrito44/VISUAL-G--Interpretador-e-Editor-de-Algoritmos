@@ -1,0 +1,59 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   :
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis
+idade: inteiro
+sexo: caractere
+total_fem: inteiro
+total_masc: inteiro
+x: inteiro
+homens: inteiro
+mulheres: inteiro
+idade_mais_alta: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+x <- 0)
+idade_mais_alta <- 0
+
+ENQUANTO idade < 999 FACA
+
+  ESCREVAL(" - Qual a sua idade ? ")
+  LEIA(idade)
+
+  SE(idade <> 999) ENTAO
+       ESCREVAL("Qual o seu sexo ?")
+       LEIA(sexo)
+       ESCREVAL("")
+
+       SE(sexo = "feminino") ENTAO
+         total_fem <- total_fem + idade
+         mulheres <- mulheres + 1
+       SENAO
+         total_masc <- total_masc + idade
+         homens <- homens + 1
+       FIMSE
+       x <- x + 1
+      SE(idade > idade_mais_alta) ENTAO
+        idade_mais_alta <- idade
+      FIMSE
+
+  FIMSE
+
+FIMENQUANTO
+
+
+ESCREVAL("Total feminino = ", total_fem)
+ESCREVAL("Total mesculino = ", total_masc)
+ESCREVAL("Mulheres = ", mulheres)
+ESCREVAL("Homens = " , homens)
+ESCREVAL("Maior idade = ", idade_mais_alta)
+ESCREVAL("Execuções = " , x)
+
+
+Fimalgoritmo
