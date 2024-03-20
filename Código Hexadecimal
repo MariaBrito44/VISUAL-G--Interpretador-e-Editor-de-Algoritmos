@@ -1,0 +1,100 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Código Hexadecimal
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 20/03/2024
+
+Var
+numero: inteiro
+resultado1: inteiro
+resultado2: inteiro
+resto1: inteiro
+resto2: inteiro
+resto3: inteiro
+
+
+Inicio
+
+numero <- 0
+
+escreval ("Digite um número")
+leia(numero)
+
+resultado1 <- numero div 16
+resultado2 <- resultado1 div 16
+resto1 <- numero mod 16
+resto2 <- resultado1 mod 16
+resto3 <- resultado2 mod 16
+
+   SE (resto3 < 10) ENTAO
+    escreva (resto3)
+   SENAO
+    SE (resto3 = 10) ENTAO
+     escreva ("A")
+    FIMSE
+    SE (resto3 = 11) ENTAO
+    escreva ("B")
+    FIMSE
+    SE (resto3 = 12) ENTAO
+    escreva ("C")
+    FIMSE
+    SE (resto3 = 13) ENTAO
+    escreva ("D")
+    FIMSE
+    SE (resto3 = 14) ENTAO
+    escreva ("E")
+    FIMSE
+    SE (resto3 = 15)  ENTAO
+    escreva ("F")
+    FIMSE
+   FIMSE
+
+    SE (resto2 < 10) ENTAO
+    escreva (resto2)
+    SENAO
+    SE (resto2 = 10) ENTAO
+     escreva ("A")
+    FIMSE
+    SE (resto2 = 11) ENTAO
+    escreva ("B")
+    FIMSE
+    SE (resto2 = 12) ENTAO
+    escreva ("C")
+    FIMSE
+    SE (resto2 = 13) ENTAO
+    escreva ("D")
+    FIMSE
+    SE (resto2 = 14) ENTAO
+    escreva ("E")
+    FIMSE
+    SE (resto2 = 15)  ENTAO
+    escreva ("F")
+    FIMSE
+    FIMSE
+
+    SE (resto1 < 10) ENTAO
+    escreva (resto1)
+    SENAO
+    SE (resto1 = 10) ENTAO
+     escreva ("A")
+    FIMSE
+    SE (resto1 = 11) ENTAO
+    escreva ("B")
+    FIMSE
+    SE (resto1 = 12) ENTAO
+    escreva ("C")
+    FIMSE
+    SE (resto1 = 13) ENTAO
+    escreva ("D")
+    FIMSE
+    SE (resto1 = 14) ENTAO
+    escreva ("E")
+    FIMSE
+    SE (resto1 = 15)  ENTAO
+    escreva ("F")
+    FIMSE
+    FIMSE
+
+
+Fimalgoritmo
