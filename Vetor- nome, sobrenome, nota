@@ -6,29 +6,28 @@ Algoritmo "semnome"
 // Data atual  : 25/03/2024
 Var
 // Seção de Declarações das variáveis
-   vetor_nome: vetor [0..4] de caracter
-   vetor_sobrenome: vetor [0..4] de caracter
-   vetor_nota: vetor [0..4] de inteiro
-   indice: inteiro
+   nome: vetor [0..4] de caracter
+   sobrenome: vetor [0..4] de caracter
+   nota: vetor [0..4] de inteiro
+   x: inteiro
+   resposta: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
- ENQUANTO (indice < 4) FACA
-
- ESCREVAL("Cadastro de nome")
- LEIA(vetor_nome[indice])
-       indice <- indice + 1
-  ESCREVAL(vetor_nome[indice])
+ PARA x de 1 ate 4 FACA
+   ESCREVAL ("Digite o ", x , "° nome: ")
+   LEIA(nome[x])
+   ESCREVAL ("Digite o ", x , "° sobrenome: ")
+   LEIA(sobrenome[x])
+   ESCREVAL ("Digite a nota do ", x , "° aluno: ")
+   LEIA(nota[x])
+   ESCREVAL("")
+   LIMPATELA
+ FIMPARA
+ ESCREVAL("Qual aluno deseja mostrar os dados?")
+ LEIA(resposta)
  
- ESCREVAL("Cadastro de sobrenome")
- LEIA(vetor_sobrenome[indice])
-   ESCREVAL(vetor_sobrenome[indice])
-
-
- ESCREVAL("Cadastro de nota")
- LEIA(vetor_nota[indice])
-    ESCREVAL(vetor_nota[indice])
-
-
- FIMENQUANTO
+ ESCREVAL("Nome = " , nome [resposta])
+ ESCREVAL("Sobrenome = " , sobrenome [resposta])
+ ESCREVAL("Nota = " , nota [resposta])
 Fimalgoritmo
