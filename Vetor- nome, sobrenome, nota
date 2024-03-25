@@ -1,0 +1,34 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 25/03/2024
+Var
+// Seção de Declarações das variáveis
+   vetor_nome: vetor [0..4] de caracter
+   vetor_sobrenome: vetor [0..4] de caracter
+   vetor_nota: vetor [0..4] de inteiro
+   indice: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ ENQUANTO (indice < 4) FACA
+
+ ESCREVAL("Cadastro de nome")
+ LEIA(vetor_nome[indice])
+       indice <- indice + 1
+  ESCREVAL(vetor_nome[indice])
+ 
+ ESCREVAL("Cadastro de sobrenome")
+ LEIA(vetor_sobrenome[indice])
+   ESCREVAL(vetor_sobrenome[indice])
+
+
+ ESCREVAL("Cadastro de nota")
+ LEIA(vetor_nota[indice])
+    ESCREVAL(vetor_nota[indice])
+
+
+ FIMENQUANTO
+Fimalgoritmo
