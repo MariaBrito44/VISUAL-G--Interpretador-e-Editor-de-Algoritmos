@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 25/03/2024
+Var
+ vetor_pares: vetor[1..10] de inteiro
+ indice_par: inteiro
+ vetor_impares: vetor[1..10] de inteiro
+ indice_impar: inteiro
+ quantidade: inteiro
+ numero: inteiro
+ x: inteiro
+ exibicao: inteiro
+ 
+Inicio
+  ESCREVAL("Quantos números deseja digitar?")
+  LEIA(quantidade)
+  PARA x de 1 ate quantidade FACA
+    ESCREVAL ("Qual número?")
+    LEIA(numero)
+    SE(numero % 2 = 0) ENTAO
+       indice_par <- indice_par + 1
+       vetor_pares [indice_par] <- numero
+    SENAO
+       indice_impar <- indice_impar + 1
+       vetor_impares [indice_impar] <- numero
+       
+    FIMSE
+   FIMPARA
