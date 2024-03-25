@@ -1,0 +1,22 @@
+Algoritmo "vetor"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 25/03/2024
+
+Var
+// Seção de Declarações das variáveis
+   vetor_cores: vetor [1..100] de caracter
+   x: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+PARA x DE 1 ATE 100 FACA
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[1])
+
+   ESCREVAL(vetor_cores[1])
+FIMPARA
+Fimalgoritmo
