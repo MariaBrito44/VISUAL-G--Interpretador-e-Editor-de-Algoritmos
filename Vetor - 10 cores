@@ -1,0 +1,61 @@
+Algoritmo "vetor"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 25/03/2024
+
+Var
+// Seção de Declarações das variáveis
+   vetor_cores: vetor [1..10] de caracter
+   
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[1])
+   ESCREVAL(vetor_cores[1])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[2])
+   ESCREVAL(vetor_cores[2])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[3])
+   ESCREVAL(vetor_cores[3])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[4])
+   ESCREVAL(vetor_cores[4])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[5])
+   ESCREVAL(vetor_cores[5])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[6])
+   ESCREVAL(vetor_cores[6])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[7])
+   ESCREVAL(vetor_cores[7])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[8])
+   ESCREVAL(vetor_cores[8])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[9])
+   ESCREVAL(vetor_cores[9])
+   
+   ESCREVAL("Digite uma cor")
+   LEIA(vetor_cores[10])
+   ESCREVAL(vetor_cores[10])
+
+
+
+
+
+
+
+Fimalgoritmo
