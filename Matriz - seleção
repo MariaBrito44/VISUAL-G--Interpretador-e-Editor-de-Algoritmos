@@ -1,0 +1,68 @@
+Algoritmo "matriz - seleção"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis
+  selecao: vetor[1..5] de caractere
+  pontos:  vetor[1..5] de inteiro
+  
+  gols: vetor[1..5,1..2] de inteiro
+  
+  quantidade: inteiro
+  x, y : inteiro
+  resposta: inteiro
+  soma, media: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   limpatela
+
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|         SISTEMA DE PONTOS DA SELEÇÃO X             |")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("")
+
+   selecao[1] <- "Brasil"
+   selecao[2] <- "Argentina"
+   selecao[3] <- "Alemanha"
+   selecao[4] <- "Inglaterra"
+   selecao[5] <- "Japão"
+   
+   pontos[1] <- 9
+   pontos[2] <- 9
+   pontos[3] <- 7
+   pontos[4] <- 5
+   pontos[5] <- 0
+   
+   gols[1,1] <-  10
+   gols[1,2] <-  2
+   gols[2,1] <- 15
+   gols[2,2] <- 8
+   gols[3,1] <- 7
+   gols[3,2] <- 1
+   gols[4,1] <- 8
+   gols[4,2] <- 10
+   gols[5,1] <- 5
+   gols[5,2] <- 11
+   
+   ESCREVAL("Escolha um time para exibir os dados")
+   ESCREVAL("1 = Brasil, 2 = Argentina, 3 = Alemanha, 4 = Inglaterra ou 5 = Japão")
+   LEIA(resposta)
+   
+   limpatela
+   
+   ESCREVAL("Time escolhido = " , selecao[resposta])
+   ESCREVAL("Pontos = " , pontos[resposta])
+   ESCREVAL("Gols feitos = " , gols[resposta,1])
+   ESCREVAL("Gols sofridos = " , gols[resposta,2])
+   
+   
+
+
+Fimalgoritmo
