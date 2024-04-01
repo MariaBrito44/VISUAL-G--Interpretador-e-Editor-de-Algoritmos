@@ -6,9 +6,9 @@ Algoritmo "matriz - notas"
 // Data atual  : 01/04/2024
 Var
 // Seção de Declarações das variáveis
-  idade_funcionario: vetor[1..5, 1..2] de inteiro
-  funcionario:  vetor[1..5] de caractere
-  convidado: vetor[1..5,1..2] de caractere
+  funcionario: vetor[1..5] de caractere
+  convidado: vetor[1..5] de caractere
+  idade_funcionario: vetor[1..5] de inteiro
   idade_convidado: inteiro
   x : inteiro
   resposta: caractere
