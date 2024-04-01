@@ -1,0 +1,55 @@
+Algoritmo "matriz - notas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Maria Eduarda Rodrigues Brito
+// Data atual  : 01/04/2024
+Var
+// Seção de Declarações das variáveis
+  idade_funcionario: vetor[1..5, 1..2] de inteiro
+  funcionario:  vetor[1..5] de caractere
+  convidado: vetor[1..5,1..2] de caractere
+  idade_convidado: inteiro
+  x : inteiro
+  resposta: caractere
+  quantidade: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   limpatela
+
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|   SISTEMA DE ACOMPANHANTES DA CONFRATERNIZAÇÃO     |")
+   ESCREVAL("|                                                    |")
+   ESCREVAL("|----------------------------------------------------|")
+   ESCREVAL("")
+   ESCREVAL("Qual o número de funcionarios ?")
+   LEIA(quantidade)
+
+   LIMPATELA
+    PARA x de 1 ate quantidade FACA
+    LIMPATELA
+         ESCREVAL(" Qual o nome do funcionário? : ")
+         LEIA(funcionario[x])
+         ESCREVAL(" Qual a idade do funcionário? : ")
+         LEIA(idade_funcionario[x])
+         ESCREVAL(" Qual o nome do convidado? : ")
+         LEIA(convidado[x])
+         ESCREVAL(" Qual a idade do convidado? : ")
+         LEIA(idade_convidado)
+    FIMPARA
+
+limpatela
+         ESCREVAL("Escolha um número do funcionário de 1 até ", quantidade ," para exibir os dados")
+         LEIA(resposta)
+         ESCREVAL("")
+         ESCREVAL("--------RESULTADO:----------")
+         ESCREVAL("Nome do funcionário: " , funcionario[x])
+         ESCREVAL("Idade do funcionário = ", idade_funcionario[x])
+         ESCREVAL("Nome do convidade: ", convidado[x])
+         ESCREVAL("Idade do convidado= ", idade_convidado)
+         
+
+Fimalgoritmo
